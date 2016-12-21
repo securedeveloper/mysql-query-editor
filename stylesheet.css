@@ -1,0 +1,191 @@
+html,body
+{
+    background-color:#FFF;
+}
+.atbls
+{
+    display:inline-block;
+    list-style-type:none;
+    text-align:center;
+    padding:0;
+    margin:10px auto;
+    width:100%;
+}
+.atbls li
+{
+    list-style-type:none;
+    display:inline-block;
+    padding:2px 15px;
+    margin:5px 5px;
+    width:120px;
+    background-color:rgba(175,175,175,0.6);
+    border-radius:10px;
+    cursor:pointer;
+}
+.code
+{
+    font-family:code;
+    padding:0px 15px;
+    margin:0px auto;
+    background-color:rgba(175,175,175,0.6);
+    border-radius:10px;
+    cursor:pointor;
+    color:red;
+}
+.error
+{
+    font-family:code;
+    padding:0px 15px;
+    margin:0px auto;
+    background-color:rgba(175,175,175,0.6);
+    border-radius:10px;
+    cursor:pointor;
+    color:red;
+}
+/*textarea
+{
+    min-width:1010px;
+    background-color:#FFF;
+    max-width:1024px;
+    text-align:left;
+    height:120px;
+    background-color:#262626;
+    color:rgb(200,200,0);
+    font-family:verdana;
+    padding:5px 15px;
+    padding-right:0px !important;
+    text-align:left !important;
+    margin:10px autopx;
+    max-width:1010px;
+}*/
+.resulttable
+{
+    display:inline-block;
+    margin:auto;
+    background-color:#FFF;
+    border:1px solid #000;
+    border-collapse:collapse;
+    width:100%;
+}
+.resulttable td
+{
+    border:1px solid #000;
+    text-align:center;
+}
+.resulttable th
+{
+    border:1px solid #000;
+    background-color:#000;
+    color:#FFF;
+}
+input[type='submit']
+{
+    padding:3px 20px;
+    width:100px;
+    border:1px solid rgba(100,100,100,0.5);
+    border-radius:10px;
+    cursor:pointer;
+    margin:0% auto 2%;
+}
+.success
+{
+    padding:10px 30px;
+    color:Green;
+    border:1px solid Green;
+    background-color:rgba(0,230,0,0.4);
+    margin:3px auto;
+}
+#wrapper
+{
+    margin:auto;
+    position:relative; width:1024px;
+    text-align:center;
+}
+.logo
+{
+    margin:5px auto !important;
+    padding:5px 10px;
+    font-size:30px;
+    text-shadow:1px 1px 3px #626262;
+}
+/*table
+{
+    display:block;
+    position:relative;
+    max-width:1024px;
+}*/
+.sqlfunctions
+{
+    list-style:none;
+    text-align:left;
+    margin:0;
+    padding:0;
+}
+.sqlfunctions li
+{
+    display:block;
+    background-color:rgba(126,126,6,0.3);
+    margin:5px 0px;
+    width:1000px;
+    padding:5px 24px;
+}
+
+.sqlfunctions a,.sqlfunctions a:visited,.sqlfunctions a:active
+{
+    text-decoration:none;
+    color:#666666;
+    text-transform:uppercase;
+}
+
+.querylink
+{
+}
+.query_header
+{
+    display:block;
+    margin:auto;
+    padding:5px 20px;
+    width:250px;
+    text-align:center;
+    background-color:rgba(135,135,135,0.3);
+}
+.query_wrapper
+{
+    display:block;
+    padding:3px;
+    background-color:rgba(126,126,6,0.3);
+}
+.query_desc
+{
+    background-color:rgba(126,126,6,0.3);
+    font-style:italic;
+    padding:2px 20px;
+    margin-left:-3px;
+    border-radius:0px solid #000;
+    border-radius:0px 0px 10px 0px;
+}
+.query_sample
+{
+    display:block;
+    background-color:#FFF;
+    padding:5px;
+    margin:5px;
+    color:#002200;
+    border:1px solid #000;
+}
+.tableinfo{
+    display:grid !important;
+    margin:0 auto;
+    border-collapse: collapse;
+}
+.tableinfo tr,.tableinfo th,.tableinfo td{
+    border:1px solid #000;
+    text-align: left;
+}
+.tableinfo th{
+    background-color:#000;
+    color:#FFF;
+}
+.tableinfo th,.tableinfo td{
+    padding:5px;
+}
